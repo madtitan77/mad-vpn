@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap>
+    <global>
+        <keyboard>
+            <!-- Keyboard mappings for testing -->
+            <f1>RunScript(special://home/addons/service.mad-vpn/keyhandler.py,status)</f1>
+            <f2>RunScript(special://home/addons/service.mad-vpn/keyhandler.py,start)</f2>
+            <f3>RunScript(special://home/addons/service.mad-vpn/keyhandler.py,stop)</f3>
+        </keyboard>
+        <remote>
+            <!-- Remote control mappings -->
+            <red>RunScript(special://home/addons/service.mad-vpn/keyhandler.py,status)</red>
+            <green>RunScript(special://home/addons/service.mad-vpn/keyhandler.py,start)</green>
+            <yellow>RunScript(special://home/addons/service.mad-vpn/keyhandler.py,stop)</yellow>
+        </remote>
+    </global>
+</keymap>
