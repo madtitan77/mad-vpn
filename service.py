@@ -23,12 +23,12 @@ class VPNMonitor(xbmc.Monitor):
         pass
 
 
-class VPNKeyListener(xbmcgui.WindowXMLDialog):
+class VPNKeyListener(xbmcgui.Window):
     """Key listener for remote control"""
     
     def __init__(self):
-        # We'll use the Window class to intercept keys
-        pass
+        xbmcgui.Window.__init__(self)
+        xbmc.log("[MAD-VPN] VPNKeyListener initialized", xbmc.LOGINFO)
     
     def onAction(self, action):
         """Handle key press actions"""
